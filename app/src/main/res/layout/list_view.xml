@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="AAPL"
+
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/stockprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$ 109.99"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:layout_marginRight="100dp" />
+        <TextView
+            android:id="@+id/ChangePercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+0.92%"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/companyname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple Inc"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/marketCap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Market Cap: 609.80 Billion"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp" />
+
+</LinearLayout>
