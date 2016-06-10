@@ -14,3 +14,8 @@ A Stock Viewer Android App with the following features:
 1. My other project [Stock Market Search](https://github.com/nishantkakar/Stock-Website) has to be deployed on a web server for this app to work
 2. The apiurl variable in `\app\src\main\java\com\reverselabs\samplestock\MainActivity.java` has to updated with the URL where the above project has been deployed
 3. The URL currently in the MainActivity.java file may or may not work
+
+## Known Issues
+1. The Network calls need to be moved to a separate thread to improve performance
+2. The confirmation box needs to be removed on deletion of a saved stock symbol
+3. Loading symbols need to be added when fetching data from server
